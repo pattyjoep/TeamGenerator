@@ -26,15 +26,6 @@ inquirer
             choices: ["manager", "engineer", "intern"]
         },
 
-        {
-            type: 'confirm',
-            name: 'newEmployee',
-            message: "Enter another employee?",
-            default: true
-        }
-
-        
-
 
     ])
    
@@ -58,12 +49,6 @@ inquirer
                     
                 ])
 
-                .then(answersMgr => {
-
-                    
-
-
-                })
            
         } else if (answers.title === "engineer") {
 
